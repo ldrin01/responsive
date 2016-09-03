@@ -1,0 +1,164 @@
+body{
+	font-family: arial;
+	margin: 0 0 0 0;
+	background: black;
+}
+#btns{
+	text-align: center;
+}
+#calculator{
+	width: 960px;
+	margin: 8% auto;
+}
+#scrn{
+	width: 100%;
+	background: #424242;
+	margin: 0 0;
+	height: 100px;
+}
+#scientific{
+	width: 360px;
+	float: left;
+	background: #d88842;
+}
+#regular{
+	width: 600px;
+	float: left;
+	background: gray;
+}
+
+#last{
+	float: right;
+	font-size: 20px;
+	padding-top: 8px;
+	margin-right: 12px;
+}
+#arithmetic{
+	float: left;
+	font-size: 40px;
+	margin-top: 42px;
+	margin-left: 15px;
+}
+#result{
+	float: right;
+	font-size: 50px;
+	margin-top: 13px;
+	margin-right: -123px;
+}
+.scientific{
+	float: left;
+	background: #d88842;
+	padding: 8.28% 9.16%;
+	width: 15%;
+	color: black;
+}
+.scientific:hover{
+	background: white;
+}
+.scientific:active{
+	background: white;
+}
+.buttons{
+	float: left;
+	padding: 6% 8%;
+	background: #393939;
+	color: #ffffff;
+	width: 4%;
+
+}
+.buttons:hover{
+	background: #424242;
+}
+.buttons:active{
+	background: white;
+}
+#button26{
+	padding: 7.8% 9.16%
+}
+#button18{
+	padding: 5% 18%;
+}
+
+
+@media screen and (max-width: 959px){
+	#calculator{
+		width: 100%;
+		margin: 5% auto;
+	}
+	#scientific{
+		width: 40%;
+	}
+	#regular{
+		width: 60%;
+	}
+	#scrn{
+		width: 100%;
+	}	
+	.scientific{
+	padding: 7.43% 9.16%;
+	}
+	
+}
+
+@media screen and (max-width: 950px){
+	body{
+		font-size: 15px;
+	}
+	#calculator{
+		width: 100%;
+		margin: 2% auto;
+	}
+	#button26{
+		padding: 7% 9.16%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	body{
+		font-size: 20px;
+	}
+	#calculator{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#scientific{
+		width: 100%;
+		
+	}
+	#regular{
+		width: 100%;
+	}	
+	#scrn{
+		width: 100%;
+	}
+	.scientific{
+	float: left;
+	background: #d88842;
+	padding: 6% 9.16%;
+	width: 15%;
+	color: black;
+	}
+
+	#button26{
+		padding: 2.55% 9.16%;
+	}
+
+	
+}
+@media screen and (max-width: 380px){
+	#calculator{
+		width: 380px;
+		margin: 0 0;
+	}
+	#scientific{
+		width: 100%;
+		
+	}
+	#regular{
+		width: 100%;
+	}	
+	#scrn{
+		width: 100%;
+	}
+	
+}
