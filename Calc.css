@@ -8,13 +8,15 @@ body{
 }
 #calculator{
 	width: 960px;
-	margin: 8% auto;
+	margin: 5% auto;
 }
 #scrn{
 	width: 100%;
 	background: #424242;
 	margin: 0 0;
 	height: 100px;
+	border-top: 5px solid #d88842;
+	overflow: hidden;
 }
 #scientific{
 	width: 360px;
@@ -43,12 +45,13 @@ body{
 	float: right;
 	font-size: 50px;
 	margin-top: 13px;
-	margin-right: -123px;
+	margin-right: 12px;	
+	overflow: hidden;
 }
 .scientific{
 	float: left;
 	background: #d88842;
-	padding: 8.28% 9.16%;
+	padding: 10% 9.16%;
 	width: 15%;
 	color: black;
 }
@@ -56,15 +59,14 @@ body{
 	background: white;
 }
 .scientific:active{
-	background: white;
+	background: #d2691e;
 }
 .buttons{
 	float: left;
 	padding: 6% 8%;
 	background: #393939;
 	color: #ffffff;
-	width: 4%;
-
+	width: 4%;	
 }
 .buttons:hover{
 	background: #424242;
@@ -73,12 +75,35 @@ body{
 	background: white;
 }
 #button26{
-	padding: 7.8% 9.16%
+	padding: 10% 17.5%;
+}
+#button25{
+	padding:  10% 17.5%;
+}
+#button29{
+	padding:  10% 42.5%;
 }
 #button18{
 	padding: 6% 18%;
 }
 
+.links{
+}
+.goto{
+	text-align: center;
+	width: 20%;
+	margin-top: 4%;
+
+	margin-bottom: 5%;
+	float: left;
+}
+a{
+	text-decoration: none;
+	color: #d88842;
+}
+.goto:hover{
+		color: white;
+}
 
 @media screen and (max-width: 959px){
 	#calculator{
@@ -95,7 +120,7 @@ body{
 		width: 100%;
 	}	
 	.scientific{
-	padding: 7.43% 9.16%;
+		padding: 8% 9.16%;
 	}
 	
 }
@@ -106,20 +131,30 @@ body{
 	}
 	#calculator{
 		width: 100%;
-		margin: 2% auto;
+		margin: 0% auto;
+	}
+	.scientific{
+		padding: 9% 9.16%;
 	}
 	#button26{
-		padding: 7% 9.16%;
+		padding: 9% 17.5%;
 	}
-}
+	#button25{
+		padding:  9% 17.5%;
+	}
+	#button29{
+		padding:  9% 42.5%;
+	}
+	}
 
 @media screen and (max-width: 500px){
 	body{
 		font-size: 20px;
+		margin: 0 0 ;
 	}
 	#calculator{
 		width: 100%;
-		margin: 0 auto;
+		margin: 0 0;
 	}
 	#scientific{
 		width: 100%;
@@ -129,6 +164,7 @@ body{
 		width: 100%;
 	}	
 	#scrn{
+
 		width: 100%;
 	}
 	.scientific{
@@ -140,9 +176,25 @@ body{
 	}
 
 	#button26{
-		padding: 2.55% 9.16%;
+		padding: 6% 9.16%;
+	}#button25{
+		padding: 6% 9.16%;
+	}#button29{
+		padding: 6% 9.16%;
 	}
-
+	.goto{
+		border: 1px solid #d88842;
+		text-align: center;
+		width: 92%;
+		padding: 2%;
+		float: center;
+		margin: 2% 2% 2% 2%;
+	}
+	.goto:hover{
+		background: #d88842;
+		color: black;
+		border-color: black;
+	}
 	
 }
 @media screen and (max-width: 380px){
